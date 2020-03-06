@@ -1,0 +1,115 @@
+@font-face{
+	src: url('HyliaSerifBeta-Regular.otf');
+	font-family: Hylia;
+}
+
+body {
+	background-color: #295BD9;
+	font-family:'Trade Winds';
+	background-image: url('lonk.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+h1 {
+	font-family: hylia;
+	text-align: center;
+	color: white;
+}
+
+.container {
+	width: 875px;
+	border: 10px solid #000000;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	border-radius: 25px;
+	border-color: transparent;
+}
+
+.content {
+	width: auto;
+	padding: 20px;	
+}
+
+p {	
+	line-height: 1.5em;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+
+img {
+	float: center;
+	border: 5px solid white;
+	border-radius: 25px;
+	max-width: 600px;
+	height:auto;
+	}
+
+li {
+	float: left;
+	width: 175px;
+	border-radius: 25px;
+	}
+
+li a {
+	color: white;
+	display: block;
+	padding: 24px 16px;
+	text-align:center;
+	text-decoration: none;
+	font-family: Hylia;
+	Border-Radius: 14px;
+	}
+	
+ul {
+	background-color: #333333;
+	list-style-type: none;
+	margin: 0px;
+	overflow: hidden;
+	padding: 0px;
+	border-radius: 14px;
+	background-image: url('all links.png');
+	background-position: center;
+	}
+
+li a:hover {
+	background-color: black;
+}
+
+.current {
+	background-color: #4CAF50;
+	}
+	
+li:last-child {
+	border-right: none;
+}
+
+div.scroll { 
+	margin:auto; 
+	padding:4px;	
+	width: a quto; 
+	height: 350px; 
+	overflow-x: hidden; 
+	overflow-x: auto; 
+	text-align: justify;
+	font-size: 30px;
+	color: black;
+	margin: 30px;
+	background-color: #ffffff;
+	border: 1px solid black;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	border-radius: 25px;
+}
+.zoom {
+	transition: transform .3s;
+	margin: auto;
+	width: 600px;
+}
+
+.zoom:hover {
+	transform: scale(1.4);
+}
